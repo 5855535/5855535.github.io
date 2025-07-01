@@ -598,7 +598,7 @@ const generateWhatsAppMessage = () => {
 
     // URL encode the message
     const encodedMessage = encodeURIComponent(message);
-    const phoneNumber = '+573046034192'; // Número de teléfono actualizado
+    const phoneNumber = '+573104170625'; // Número de teléfono actualizado
     return `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 };
 
